@@ -1,10 +1,12 @@
-from __future__ import print_function
-import keras
-from keras.datasets import cifar10
-from keras.preprocessing.image import ImageDataGenerator
-from keras.models import Sequential
-from keras.layers import Dense, Dropout, Activation, Flatten
-from keras.layers import Conv2D, MaxPooling2D
+# -*- coding: utf-8 -*-
+# from __future__ import print_function
+
+from tensorflow.python import keras
+from tensorflow.python.keras.datasets import cifar10
+from tensorflow.python.keras.preprocessing.image import ImageDataGenerator
+from tensorflow.python.keras.models import Sequential
+from tensorflow.python.keras.layers import Dense, Dropout, Activation, Flatten
+from tensorflow.python.keras.layers import Conv2D, MaxPooling2D
 import os
 
 batch_size = 32

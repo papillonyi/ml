@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import os
 import sagemaker
 from sagemaker import get_execution_role
